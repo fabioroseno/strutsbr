@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 1, 2013 7:24:10 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="Model.Matakuliah" table="matakuliah" catalog="hibernate">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="matkul" type="string">
+            <column name="matkul" length="100" />
+        </property>
+        <property name="sks" type="java.lang.Integer">
+            <column name="sks" />
+        </property>
+    </class>
+</hibernate-mapping>

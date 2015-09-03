@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 1, 2013 7:24:10 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="Model.Dosen" table="dosen" catalog="hibernate">
+        <id name="nip" type="int">
+            <column name="NIP" />
+            <generator class="assigned" />
+        </id>
+        <property name="nama" type="string">
+            <column name="Nama" length="200" />
+        </property>
+    </class>
+</hibernate-mapping>

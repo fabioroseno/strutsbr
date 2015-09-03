@@ -16,4 +16,5 @@ buildNumber.properties
 
 #Pastas
 /.mtj.tmp/
+.settings/
 /target/
